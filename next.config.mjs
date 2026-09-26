@@ -1,9 +1,11 @@
 const nextConfig = {
   reactStrictMode: false,
+
   devIndicators: {
     buildActivity: false,
     appIsrStatus: false,
   },
+
   images: {
     remotePatterns: [
       {
@@ -13,3 +15,5 @@ const nextConfig = {
     ],
   },
 };
+
+export default nextConfig;
